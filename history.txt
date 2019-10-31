@@ -1,0 +1,456 @@
+    1  passwd
+    2  1s
+    3  pwd
+    4  ls
+    5  pwd
+    6  passwd
+    7  ls
+    8  pwd
+    9  cd workspace
+   10  ls
+   11  touch
+   12  touch Read.md
+   13  copy Read.md
+   14  exit
+   15  ls
+   16  pwd
+   17  workspace cd
+   18  cd workspace
+   19  ls
+   20  pwd
+   21  cd workspace
+   22  CHANGELOG.md
+   23  touch CHANGELOG.md
+   24  pwd
+   25  ls
+   26  mkdir exercise.md
+   27  mv /tmp
+   28  mv destop/tmp
+   29  mv exercise.md/tmp
+   30  mv exercise.md /tmp
+   31  find exercise.md
+   32  rmdir exercise.md /tmp
+   33  mkdir exrcise.md
+   34  mv exrcise.md /tmp
+   35  rmdir exrcise /tmp
+   36  ls
+   37  touch umuzi.md
+   38  touch recruts.md
+   39  touch cohort.md
+   40  cat umuzi.md >> recruits.md >> cohort.md
+   41  cat umuzi.md >> recruts.md >> cohort.md
+   42  cat umuzi.md recruts.md cohort.md
+   43  umuzi.md recruts.md cohort.md > summary.md
+   44  cat umuzi.md recruts.md cohort.md > summary.md
+   45  cat summary.md
+   46  cat >> summary
+   47  ls
+   48  cat >> summary.md
+   49  locate umuzi
+   50  search_resulat.md
+   51  cat locate umuzi
+   52  locate umuzi
+   53  search_result.md
+   54  locate summary.md
+   55  locate umuzi
+   56  locate umuzi > search_result.md
+   57  findddddd umuzi
+   58  find umuzi
+   59  find umuzi > search_result.md
+   60  find umuzi >> search_result.md
+   61  cat Documents/pad.md
+   62  passwd
+   63  touch Documents/pad.md
+   64  touch Desktop/work
+   65  cp pad.md Desktop/pad_copy.md
+   66  cp pad.md Desktop
+   67  cp pad.md /pad_copy.md
+   68  cp Documents/pad.md Destop/pad_copy.md
+   69  ls
+   70  ls pad.md
+   71  locate updatedb
+   72  cd-
+   73  locate pad.md
+   74  find pad.d
+   75  find pad.md
+   76  ls pad.md
+   77  find -pdf
+   78  find pdf
+   79  find *pdf
+   80  ls
+   81  cd Downloads/
+   82  ls
+   83  find pdf
+   84  find *pdf
+   85  find pdf
+   86  find *pdf
+   87  touch 1cat 1dog 2dog
+   88  ls
+   89  find *1
+   90  ls *1
+   91  find *dog
+   92  rm 1cat 1dog 2dog 
+   93  ls
+   94  find *pdf
+   95  find *docx
+   96  git status
+   97  ls -a
+   98  git init
+   99  ls -a
+  100  git add
+  101  git add README.md
+  102  git status
+  103  git add <README.md>
+  104  git log
+  105  git commit -m "initial commit"
+  106  git config --global user.email
+  107  jbmasemza@yahoo.com
+  108  git config -- global user.email"jbmasemza@yahoo.com"
+  109  ls
+  110  pwd
+  111  cd
+  112  ls
+  113  pwd
+  114  ls
+  115  pwd
+  116  mkdir work
+  117  cd workspace
+  118  ls
+  119  exit
+  120  history
+  121  ls
+  122  cd git-basic-exercises/
+  123  cd git-basic-exercises
+  124  git remote add origin https://github.com/jbmasemza/git-basic-exercises.git
+  125  git push -u origin master
+  126  cd git-basic-exercises
+  127  ls
+  128  git checkout -b history.md
+  129  git add .
+  130  git commit -m "branch1 commit"
+  131  git push -u origin history.md
+  132  git checkout -b milkshake-flavours.md
+  133  cd git-basic-exercises
+  134  nano README.md
+  135  cat README.md
+  136  git status
+  137  git add .
+  138  git status
+  139  git commit -m "second commit"
+  140  git log
+  141  nano README.md
+  142  cat README.md
+  143  git status
+  144  git add.
+  145  git add .
+  146  git status
+  147  git commit -m "third commit"
+  148  git log
+  149  git checkout 108b70126265aa631dcf61dcbb1b5b66b99fbb7a
+  150  cat README.md
+  151  git checkout master
+  152  cat README.md
+  153  git brach
+  154  git branch
+  155  milkshake-flavours
+  156  git pull
+  157  git checkout -b milkshake-flavours
+  158  git branch
+  159  cd milkshake-flavours
+  160  git branch
+  161  git brach milkshake-flavours
+  162  git branch milkshake-flavours
+  163  nano milkshake-flavours
+  164  git status
+  165  git add.
+  166  git add .
+  167  git commit -m "added initial flavours"
+  168  git log
+  169  gt checkout master
+  170  git checkout master
+  171  git status
+  172  git branch history
+  173  git log
+  174  history > history.md
+  175  git log
+  176  history > history.txt
+  177  git log
+  178  git checkout history
+  179  git log
+  180  history > history.md
+  181  git log
+  182  git status
+  183  git add history.txt
+  184  git status
+  185  git commit -m "added history"
+  186  git log
+  187  git checkout milkshake-flavours
+  188  git log
+  189  nano README.md
+  190  git status
+  191  git add README.md
+  192  git commit -m "random readme changes"
+  193  git checkout history
+  194  cat README.md
+  195  rm README.md echo "booya" > README.md
+  196  rm README>md
+  197  rm README.md
+  198  git checkout history
+  199  rm README.md > README.md
+  200  git status
+  201  git add .
+  202  git commit -m "rewrote readme"
+  203  git checkout master
+  204  ls
+  205  git log
+  206  git checkout milkshake-flavours
+  207  ls
+  208  git log
+  209  git checkout history
+  210  ls
+  211  git log
+  212  git checkout master
+  213  git merge milkshake-flavours
+  214  ls
+  215  git log
+  216  git checkout history
+  217  git log
+  218  git checkout milkshake-flavours
+  219  git log
+  220  git checkout milkshake-flavours
+  221  git log
+  222  git checkout history
+  223  git log
+  224  git checkout master
+  225  git merge history
+  226  git checkout history
+  227  cd README.md
+  228  nano README.md
+  229  git checkout master
+  230  git log
+  231  git checkout master
+  232  git checkout history
+  233  git merge history
+  234  git rm REDME.md echo "booya"  > README>md
+  235  rm README.md echo "booya" > README.md
+  236  rm README.md > README.md
+  237  git status
+  238  git add .
+  239  git commit -m " random readme changes"
+  240  git checkout master
+  241  git merge history
+  242  git log
+  243  ls
+  244  pwd
+  245  mkdir workspace
+  246  cd worksapace
+  247  cd workspace
+  248  ls
+  249  touch README.md
+  250  cp README.md CHANGELOG.md
+  251  ls
+  252  touch exercise.md
+  253  ls
+  254  mv exercise.md/temp
+  255  ls
+  256  cd
+  257  touch exercise.md
+  258  ls
+  259  mv exercise.md/music
+  260  mv exercise/temp music
+  261  mv exercise.md /temp
+  262  ls
+  263  mv exercise.txt /tmp  
+  264  mv exercise.md  /tmp  
+  265  cd tmp
+  266  cd /tmp
+  267  ls
+  268  cd
+  269  cd tmp
+  270  cd
+  271  rm /tmp/exercise.md
+  272  ls
+  273  cd tmp
+  274  cd /tmp
+  275  ls
+  276  cd
+  277  cat umuzi.md, recruit.md, cohort.md
+  278  touch umuzi.md, recruit.md, cohort.md
+  279  ls
+  280  cat *.md
+  281  cat umuzi.md, recruit.md, cohort.md
+  282  cat summary.md
+  283  echo "The End" >> summary.md
+  284  cat summary.md
+  285  find / -name umuzi*
+  286  find / -name umuzi* > search_result.md
+  287  ls
+  288  cat search_result.md
+  289  cd Documents
+  290  mkdir myDocument
+  291  cd myDocument
+  292  touch pad.md
+  293  ls
+  294  cd
+  295  cd Desktop
+  296  mkdir Work
+  297  cd Work
+  298  cp pad.md pad_copy.md
+  299  cp /home/joyus/Documents/pad.md ./pad_copy.md
+  300  cp /home/joyus/Documents/myDocument/pad.md ./pad_copy.md
+  301  cp /home/joyous/Documents/myDocument/pad.md ./pad_copy.md
+  302  locate updatedb
+  303  cd
+  304  find /home/joyous/Desktop/ -name pad*
+  305  locate  *.pdf
+  306  find . -iname '*.pdf' -exec cp {} work \;
+  307  find / -mtime -1 -print
+  308  nano myBio.md
+  309  cat myBio
+  310  cat myBio.md
+  311  nano myBio.md
+  312  cat myBio.md
+  313  mkdir my_files
+  314  cd my_files
+  315  mv myBio.md/my_files
+  316  cd
+  317  mv my_bio.md /home/joyous/my_files/ 
+  318  cd my_files
+  319  ls
+  320  cd
+  321  mkdir git-basic-exercises
+  322  cd git-basic-exercises
+  323  ls
+  324  git init
+  325  ls -a
+  326  git status
+  327  touch README.md
+  328  ls -a
+  329  git status
+  330  git log
+  331  git add README.md
+  332  git commit "initial commit"
+  333  git commit -m "initial commit"
+  334  git log
+  335  q
+  336  cd
+  337  cd git-basic-exercises
+  338  nano README.md
+  339  cat README.md
+  340  git status
+  341  git add
+  342  git add README.md
+  343  git commit -m "second commit"
+  344  nano README.md
+  345  cat README.md
+  346  git status
+  347  git add README.md
+  348  git commit -m "third commit"
+  349  git log
+  350  cd
+  351  git checkout
+  352  cd git-basic-exercises
+  353  git checkout
+  354  git checkout 3729f14b3acbf081d24de55ab5a18196f2f429d1
+  355  cat README.md
+  356  git checkout master
+  357  cat README.md
+  358  git checkout
+  359  git branch
+  360  fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff14b3acbf081d24de55ab5a18196f2f429d1
+  361  cd git-basic-exercises
+  362  ls
+  363  git checkout master
+  364  git checkout -b milkshake-flavours
+  365  git branch
+  366  git checkout milkshake-flavours
+  367  git branch
+  368  nano milkshake-flavours
+  369  cat milkshake-flavours
+  370  git status
+  371  git add milkshake-flavours
+  372  git commit -m "added nitial flavours"
+  373  git checkout master
+  374  git checkout -b history
+  375  git log
+  376  history > history.txt
+  377  git status
+  378  git add history.txt
+  379  git commit -m "added history"
+  380  gtt log
+  381  git log
+  382  git status
+  383  git add README.md
+  384  git commit -m "random changes"
+  385  git checkout history
+  386  cat README.md
+  387  rm README.md echo "booya" > README.md
+  388  rm README.md
+  389  rmf README.md
+  390  rm README.md
+  391  git checkout master
+  392  rm READ.ME
+  393  rm README.md
+  394  echo "booya" > README.md
+  395  git status
+  396  git add README.md
+  397  git commit -m "rewrote readme"
+  398  ls
+  399  git log
+  400  git chekout history
+  401  git checkout history
+  402  nano README.md
+  403  cat README.md
+  404  rm README.md
+  405  echo "sweet" > README.md
+  406  git status
+  407  git commit -m "rewrote readme file
+  408  git checkout history
+  409  cd git-basic-exercises
+  410  git checkout history
+  411  git log
+  412  cd git-basic-exercises
+  413  git checkout history
+  414  git commit -m "rewrote readme file"
+  415  git log
+  416  git checkout master
+  417  git reset --hard HEAD^
+  418  git log
+  419  git checkout history
+  420  git log
+  421  ls
+  422  git log
+  423  git checkout master
+  424  git log
+  425  git checkout history
+  426  git log
+  427  git checkout milkshake-flavours
+  428  ls
+  429  git log
+  430  git checkout master
+  431  git merge milkshake-flavours
+  432  ls
+  433  git log
+  434  git checkout history
+  435  git log
+  436  git checkout milkshake-flavours
+  437  git log
+  438  git checkout master
+  439  git merge history
+  440  git log
+  441  cd git-basic-exercises
+  442  git checkout milkshake-flavours
+  443  git branch
+  444  nano milkshake-flavours
+  445  cat milkshake-flavours
+  446  git status
+  447  git add milkshake-flavours
+  448  git status
+  449  git commit -m "added initial flavours"
+  450  git log
+  451  git checkout master
+  452  git log
+  453  git checkout -b history
+  454  got log
+  455  git log
+  456  history > history.txt
